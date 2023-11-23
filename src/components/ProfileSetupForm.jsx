@@ -34,6 +34,10 @@ const ProfileSetupForm = () => {
 
   const onSubmitHandler = data => {
     console.log("SUBMIT", data);
+    if (!isLastStep) {
+      setStep(step => step + 1);
+      return;
+    }
     // Handle form submission
   };
 
@@ -73,12 +77,6 @@ const ProfileSetupForm = () => {
                   <button
                     type="submit"
                     className="k-button k-button-md k-rounded-md k-button-solid k-button-solid-base k-w-full"
-                    onClick={event => {
-                      if (!isLastStep) {
-                        event.preventDefault();
-                        setStep(step => step + 1);
-                      }
-                    }}
                   >
                     {isLastStep ? "Submit" : "Next"}
                   </button>
