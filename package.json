@@ -10,23 +10,24 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@progress/kendo-react-common": "^6.1.1",
-    "@progress/kendo-react-form": "^6.1.1",
-    "@progress/kendo-react-inputs": "^6.1.1",
-    "@progress/kendo-react-labels": "^6.1.1",
-    "@progress/kendo-react-layout": "^6.1.1",
-    "@progress/kendo-theme-material": "^7.0.2",
+    "@progress/kendo-react-common": "^7.3.0",
+    "@progress/kendo-react-form": "^7.3.0",
+    "@progress/kendo-react-inputs": "^7.3.0",
+    "@progress/kendo-react-labels": "^7.3.0",
+    "@progress/kendo-react-layout": "^7.3.0",
+    "@progress/kendo-svg-icons": "^2.3.0",
+    "@progress/kendo-theme-material": "^7.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15",
-    "@vitejs/plugin-react": "^4.2.0",
-    "eslint": "^8.53.0",
-    "eslint-plugin-react": "^7.33.2",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.4",
+    "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.0.0"
   }
 }

@@ -4,18 +4,20 @@ import { Form, FormElement } from "@progress/kendo-react-form";
 import PersonalDetails from "./form-steps/PersonalDetails";
 import Interests from "./form-steps/Interests";
 import AccountDetails from "./form-steps/AccountDetails";
+import { userIcon, linkIcon, lockIcon } from "@progress/kendo-svg-icons";
+
 const steps = [
   {
     label: "Personal Details",
-    icon: "k-i-user",
+    svgIcon: userIcon,
   },
   {
     label: "Interests",
-    icon: "k-i-link",
+    svgIcon: linkIcon,
   },
   {
     label: "Account",
-    icon: "k-i-lock",
+    svgIcon: lockIcon,
   },
 ];
 
